@@ -11,7 +11,7 @@ const Card = () => (
 export default Card;
 */
 const CardExampleWithAvatar = () => (
-  <Card>
+  <Card className='col-md-4 col-xs-12'>
     <CardHeader
       title="URL Avatar"
       subtitle="Subtitle"
@@ -20,7 +20,7 @@ const CardExampleWithAvatar = () => (
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src={img} />
+      <img src={img} alt=''/>
     </CardMedia>
     <CardTitle title="Card Titulo" subtitle="Card Subtitulo" />
     <CardText>

@@ -1,0 +1,15 @@
+[
+    {
+        "request": {
+            "url": "^/ws/api/i18n/v1/rest/price_compare/.*",
+            "method": "GET"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+            "Content-Type": "application/json"
+        },
+        "file": "./data.json"
+        }
+    }
+]
