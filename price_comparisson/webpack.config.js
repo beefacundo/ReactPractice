@@ -36,14 +36,6 @@ module.exports = {
         loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
       },
       {
-        test: /\.svg$/,
-        loader: 'svg-loader?pngScale=2'
-      },
-      {
-        test: /\jpg$/,
-        loader: 'svg-loader?pngScale=2'
-      },
-      {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
             'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
