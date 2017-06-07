@@ -5,153 +5,60 @@
     },
     "data": {
         "code": 0,
-        "description": "",
-        "lanCorporate": "87930900",
-        "bussinesName": "Ventas de Prueba",
-        "ownerFirstName": "Cosme",
-        "ownerLastName": "Fulanito",
-        "totalAmount": "1200",
-        "bonification": "0",
-        "accumulation": "0",
-        "currentContract": {
-            "expirationDate": "20-11-2017",
-            "startDate": "19-11-2016",
-            "contractId": "9"
-        },
-        "movements": {
-            "total": 17,
+        "products": {
+            "total": 5,
             "data": 
                 [
                     {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
+                        "name": "Product Name",
+                        "description": "Product description for self satisfaction",
+                        "actulPrice": "10.1",
+                        "currentcy" : "ARS",
+                        "discount" : "0.35",
+                        "commerceName": "Garbarino",
+                        "commerceAvatar": "avatar.url",
+                        "picture": "picture.url",
                     },
                     {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
+                        "name": "Product Name",
+                        "description": "Product description for self satisfaction",
+                        "actulPrice": "10.1",
+                        "currentcy" : "ARS",
+                        "discount" : "0.35",
+                        "commerceName": "Garbarino",
+                        "commerceAvatar": "avatar.url",
+                        "picture": "picture.url",
                     },
                     {
-                        "date": "19-11-2016",
-                        "route": "Russia - Guatemala",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Moise Perez",
-                        "totalPoints": "1000"
+                        "name": "Product Name",
+                        "description": "Product description for self satisfaction",
+                        "actulPrice": "10.1",
+                        "currentcy" : "ARS",
+                        "discount" : "0.35",
+                        "commerceName": "Garbarino",
+                        "commerceAvatar": "avatar.url",
+                        "picture": "picture.url",
                     },
                     {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
+                        "name": "Product Name",
+                        "description": "Product description for self satisfaction",
+                        "actulPrice": "10.1",
+                        "currentcy" : "ARS",
+                        "discount" : "0.35",
+                        "commerceName": "Garbarino",
+                        "commerceAvatar": "avatar.url",
+                        "picture": "picture.url",
                     },
                     {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    },                {
-                        "date": "19-11-2016",
-                        "route": "Santiago - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Juan Perez",
-                        "totalPoints": "1000"
-                    },
-                    {
-                        "date": "19-11-2016",
-                        "route": "Rumania - Buenos Aires",
-                        "points": "10.1",
-                        "ticketNumber": "04565464",
-                        "passengerName": "Niquiten Perez",
-                        "totalPoints": "1000"
-                    }
+                        "name": "Product Name",
+                        "description": "Product description for self satisfaction",
+                        "actulPrice": "10.1",
+                        "currentcy" : "ARS",
+                        "discount" : "0.35",
+                        "commerceName": "Garbarino",
+                        "commerceAvatar": "avatar.url",
+                        "picture": "picture.url",
+                    }                    
                 ]
         }
     }
