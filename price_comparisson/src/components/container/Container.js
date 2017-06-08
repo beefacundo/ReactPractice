@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import CardExampleWithAvatar from '../card/Card';
+import CardList from '../cardList/CardList';
 import './Container.css';
 
 class Container extends Component {
+	constructor(props){
+		super(props);
+
+	}
+
   render() {
-    return (
+  	return (
       <div className='Container'>
-        <CardExampleWithAvatar />
+        <CardList productsList={this.props.productsList} />
       </div>
     );
   }

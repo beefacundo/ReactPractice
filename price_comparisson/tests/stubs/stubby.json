@@ -1,7 +1,7 @@
 [
     {
         "request": {
-            "url": "^/ws/api/i18n/v1/rest/price_compare/.*",
+            "url": "^/samana/.*",
             "method": "GET"
         },
         "response": {

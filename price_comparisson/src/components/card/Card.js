@@ -1,16 +1,12 @@
-import React from 'react';
+import React, { Component} from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import img from "../../../public/nature.jpg";
 import profile from "../../../public/profile.jpg";
-/*
-const Card = () => (
-  <RaisedButton label="Default" />
-);
 
-export default Card;
-*/
-const CardExampleWithAvatar = () => (
+
+/*const ProductCard = () => (
+
   <Card className='col-md-4 col-xs-12'>
     <CardHeader
       title="URL Avatar"
@@ -20,7 +16,7 @@ const CardExampleWithAvatar = () => (
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src={img} alt=''/>
+    <img src={img} alt=''/>
     </CardMedia>
     <CardTitle title="Card Titulo" subtitle="Card Subtitulo" />
     <CardText>
@@ -34,6 +30,31 @@ const CardExampleWithAvatar = () => (
       <FlatButton label="Action2" />
     </CardActions>
   </Card>
-);
+  */
+class ProductCard extends Component {
+  render () {
+    return (
+      <Card className='col-md-4 col-xs-12'>
+        <CardHeader
+          title={this.props.avatarTitle}
+          subtitle={this.props.avatarSubTitle}
+          avatar={this.props.avatarImg}
+        />
+        <CardMedia>
+          <img src={img} alt=''/>
+        </CardMedia>
+        <CardTitle 
+          title={this.props.cardTitle}
+          subtitle={this.props.cardSubTitle}
+        />
+        <CardText>
+          {this.props.productDescription}
+        </CardText>
+        <CardActions>
+        </CardActions>
+      </Card>
+    )
+  }
+}
 
-export default CardExampleWithAvatar;
+export default ProductCard;
