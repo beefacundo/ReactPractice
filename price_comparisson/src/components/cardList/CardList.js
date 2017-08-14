@@ -13,6 +13,7 @@ class CardList extends Component {
 	render () {
 		const cardList = this.props.productsList.map((item)=> (
 			<ProdcutCard
+				key = {item.key}
 				avatarImg = {item.commerceAvatar}
 				avatarTitle = {item.commerceName}
 				vaterSubTitle = ''

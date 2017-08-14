@@ -10,53 +10,58 @@
             "data": 
                 [
                     {
+                        "key": 1,
                         "productName": "Product Name",
                         "productDescription": "Product description for self satisfaction",
                         "actulPrice": "10.1",
                         "currentcy" : "ARS",
                         "discount" : "0.35",
                         "commerceName": "Garbarino",
-                        "commerceAvatar": "avatar.url",
+                        "commerceAvatar": "Garbarino.png",
                         "picture": "picture.url"
                     },
                     {
+                        "key": 2,
                         "productName": "Product Name",
                         "productDescription": "Product description for self satisfaction",
                         "actulPrice": "10.1",
                         "currentcy" : "ARS",
                         "discount" : "0.35",
                         "commerceName": "Garbarino",
-                        "commerceAvatar": "avatar.url",
+                        "commerceAvatar": "Garbarino.png",
                         "picture": "picture.url"
                     },
                     {
+                        "key": 3,
                         "productName": "Product Name",
                         "productDescription": "Product description for self satisfaction",
                         "actulPrice": "10.1",
                         "currentcy" : "ARS",
                         "discount" : "0.35",
                         "commerceName": "Garbarino",
-                        "commerceAvatar": "avatar.url",
+                        "commerceAvatar": "Garbarino.png",
                         "picture": "picture.url"
                     },
                     {
+                        "key": 4,
                         "productName": "Product Name",
                         "productDescription": "Product description for self satisfaction",
                         "actulPrice": "10.1",
                         "currentcy" : "ARS",
                         "discount" : "0.35",
                         "commerceName": "Garbarino",
-                        "commerceAvatar": "avatar.url",
+                        "commerceAvatar": "Garbarino.png",
                         "picture": "picture.url"
                     },
                     {
+                        "key": 5,
                         "productName": "Product Name",
                         "productDescription": "Product description for self satisfaction",
                         "actulPrice": "10.1",
                         "currentcy" : "ARS",
                         "discount" : "0.35",
                         "commerceName": "Garbarino",
-                        "commerceAvatar": "avatar.url",
+                        "commerceAvatar": "Garbarino.png",
                         "picture": "picture.url"
                     }                    
                 ]

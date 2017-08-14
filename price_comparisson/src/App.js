@@ -23,7 +23,7 @@ class App extends Component {
 		this.setState({
 			productsList: products,
 			loading: false
-		})
+		});
 	}	
 
   render() {

@@ -34,11 +34,11 @@ import profile from "../../../public/profile.jpg";
 class ProductCard extends Component {
   render () {
     return (
-      <Card className='col-md-4 col-xs-12'>
+      <Card className='col-md-3 col-xs-12'>
         <CardHeader
           title={this.props.avatarTitle}
           subtitle={this.props.avatarSubTitle}
-          avatar={this.props.avatarImg}
+          avatar='../../../public/Garbarino.png'//{this.props.avatarImg}
         />
         <CardMedia>
           <img src={img} alt=''/>
@@ -48,7 +48,7 @@ class ProductCard extends Component {
           subtitle={this.props.cardSubTitle}
         />
         <CardText>
-          {this.props.productDescription}
+          {this.props.description}
         </CardText>
         <CardActions>
         </CardActions>
